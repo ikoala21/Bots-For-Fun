@@ -13,7 +13,7 @@
 ***Example***:  
 DISCORD_TOKEN = 'XXXXXX'  
 DISCORD_GUILD = 1234567  
-To get the token, go to Discord developer portal. If you already have a bot created, click it in the list, else create a New Application, give it a name and retrieve token.
+To get the token, go to Discord developer portal. If you already have a bot created, click it in the list, else create a New Application, give it a name and retrieve token.  
 To get guild token, enable dev setting in disord, go to your server and right-click on the server name, then select Copy ID. Paste the Server ID on your guild variable.
 
 ### :pencil: Specifications
