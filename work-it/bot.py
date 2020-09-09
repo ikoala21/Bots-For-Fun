@@ -57,16 +57,6 @@ async def on_ready():
     IST = pytz.timezone('Asia/Kolkata')
 
 
-@bot.event
-async def on_member_join(member):
-    await message.channel.send(f'Hi {member.name}, welcome to koalas channel')
-
-
-@bot.command()
-async def hi(ctx):
-    await ctx.send("hi {}".format(ctx.author))
-
-
 @bot.command()
 async def task(ctx, *args):
     if(args[0] == 'add'):
